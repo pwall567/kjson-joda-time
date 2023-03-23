@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>kjson-joda-time</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
   <name>Joda Time Adapters for kjson</name>
   <description>Joda Time Adapters for kjson</description>
   <packaging>jar</packaging>
