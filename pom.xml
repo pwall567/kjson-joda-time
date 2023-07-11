@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>kjson-joda-time</artifactId>
-  <version>0.2</version>
+  <version>0.3</version>
   <name>Joda Time Adapters for kjson</name>
   <description>Joda Time Adapters for kjson</description>
   <packaging>jar</packaging>
@@ -13,7 +13,7 @@
   <parent>
     <groupId>io.kjson</groupId>
     <artifactId>kjson-maven</artifactId>
-    <version>2.1</version>
+    <version>3.1</version>
   </parent>
 
   <properties>
@@ -63,7 +63,7 @@
     <dependency>
       <groupId>io.kjson</groupId>
       <artifactId>kjson</artifactId>
-      <version>4.2</version>
+      <version>6.0</version>
     </dependency>
     <dependency>
       <groupId>net.pwall.json</groupId>
@@ -74,12 +74,6 @@
       <groupId>joda-time</groupId>
       <artifactId>joda-time</artifactId>
       <version>2.12.2</version>
-    </dependency>
-    <dependency>
-      <!-- This is required because kotlin-test-junit 1.6.10 includes junit 4.12 -->
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>

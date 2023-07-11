@@ -16,7 +16,7 @@ still use the Joda Time libraries, and it is likely to be some time before all t
 replaced.
 
 The `kjson-joda-time` library provides custom serialization and deserialization classes to allow the use of the
-[`kjson`](https://github.com/pwall567/kjson) with applications that still use the Joda Time classes.
+[`kjson`](https://github.com/pwall567/kjson) library with applications that still use the Joda Time classes.
 
 ## Quick Start
 
@@ -55,25 +55,25 @@ This is the initial release of the library; further classes and more documentati
 
 ## Dependency Specification
 
-The latest version of the library is 0.2, and it may be obtained from the Maven Central repository.
+The latest version of the library is 0.3, and it may be obtained from the Maven Central repository.
 
 ### Maven
 ```xml
     <dependency>
       <groupId>io.kjson</groupId>
       <artifactId>kjson-joda-time</artifactId>
-      <version>0.2</version>
+      <version>0.3</version>
     </dependency>
 ```
 ### Gradle
 ```groovy
-    implementation 'io.kjson:kjson-joda-time:0.2'
+    implementation 'io.kjson:kjson-joda-time:0.3'
 ```
 ### Gradle (kts)
 ```kotlin
-    implementation("io.kjson:kjson-joda-time:0.2")
+    implementation("io.kjson:kjson-joda-time:0.3")
 ```
 
 Peter Wall
 
-2023-03-22
+2023-07-12
