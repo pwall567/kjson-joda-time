@@ -75,8 +75,7 @@ class JodaTimeJSONTest {
             addJodaInstantFromJSON()
         }
         assertFailsWith<JSONException> { JSONString("wrong").fromJSONValue<Instant>(config) }.let {
-            expect("Error in custom fromJSON mapping of org.joda.time.Instant") { it.message }
-            expect("Node not correct type (Instant), was \"wrong\"") { it.cause?.message }
+            expect("Node not correct type (Instant), was \"wrong\"") { it.message }
         }
     }
 
